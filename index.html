@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0e1624" />
+    <meta name="description" content="BOOGIOS_STUDIO의 iOS 앱 포트폴리오. 작은 일상을 더 편하게 만드는 앱을 소개합니다." />
+    <meta property="og:title" content="BOOGIOS_STUDIO · Apps" />
+    <meta property="og:description" content="Small apps for meaningful everyday moments." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/icons/6788188857.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>BOOGIOS_STUDIO · Apps</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="BOOGIOS_STUDIO home">
+          <span class="brand-mark">B</span>
+          <span>BOOGIOS<span class="brand-muted">_STUDIO</span></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#apps" data-i18n="navApps">앱</a>
+          <a href="#about" data-i18n="navAbout">소개</a>
+          <a href="#contact" data-i18n="navContact">연락처</a>
+        </nav>
+        <div class="header-actions">
+          <div class="language-switch" aria-label="Language switcher">
+            <button class="language-button is-active" type="button" data-language="ko">KO</button>
+            <span>/</span>
+            <button class="language-button" type="button" data-language="en">EN</button>
+          </div>
+          <a class="header-cta" href="#apps" data-i18n="viewApps">앱 둘러보기</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> BOOGIOS_STUDIO · INDEPENDENT APPS</p>
+            <h1 data-i18n="heroTitle">일상의 작은 순간을 위한 앱</h1>
+            <p class="hero-description" data-i18n="heroDescription">기록하고, 정리하고, 다시 바라보는 순간을 더 가볍게 만듭니다.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#apps" data-i18n="exploreApps">앱 컬렉션 보기 <span>↘</span></a>
+              <a class="button button-quiet" href="https://apps.apple.com/kr/developer/sangwoo-byeon/id1707135670" target="_blank" rel="noreferrer" data-i18n="appStorePage">App Store 개발자 페이지</a>
+            </div>
+            <div class="hero-note">
+              <span class="note-line"></span>
+              <span data-i18n="heroNote">Sangwoo Byeon이 만들고 운영합니다.</span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Featured apps preview">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="feature-stack">
+              <div class="feature-card feature-card-back">
+                <span class="mini-label">02</span>
+                <span class="mini-title">DayBlocks</span>
+                <span class="mini-copy">Plan · Do · See</span>
+              </div>
+              <div class="feature-card feature-card-main">
+                <div class="feature-topline"><span>FEATURED</span><span>01 / 12</span></div>
+                <div class="feature-icon-row">
+                  <img src="assets/icons/6788188857.jpg" alt="자기 전 30분 app icon" />
+                  <div>
+                    <span class="feature-kicker" data-i18n="featureKicker">오늘의 작은 약속</span>
+                    <strong data-i18n="featureTitle">자기 전 30분</strong>
+                  </div>
+                </div>
+                <p data-i18n="featureDescription">잠들기 전 화면 시간을 정리하는 작은 취침 타이머.</p>
+                <div class="feature-footer"><span>iOS</span><span>↗</span></div>
+              </div>
+              <div class="feature-card feature-card-front">
+                <span class="mini-label">12</span>
+                <span class="mini-title">ReDay</span>
+                <span class="mini-copy">Our dates, remembered.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom-line"></div>
+      </section>
+
+      <section class="app-section" id="apps">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker" data-i18n="collectionKicker">THE COLLECTION</p>
+              <h2 data-i18n="collectionTitle">앱 컬렉션</h2>
+            </div>
+            <p class="section-intro" data-i18n="collectionDescription">매일의 흐름을 정리하고, 좋아하는 순간을 남기고, 관계와 취향을 오래 기억하기 위한 앱들입니다.</p>
+          </div>
+          <div class="toolbar">
+            <div class="filters" id="filters" aria-label="App categories"></div>
+            <label class="search-box">
+              <span class="search-icon">⌕</span>
+              <input id="app-search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="앱 검색" aria-label="Search apps" />
+            </label>
+          </div>
+          <div class="app-grid" id="app-grid"></div>
+          <p class="empty-state" id="empty-state" hidden data-i18n="emptyState">검색 결과가 없습니다.</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container about-grid">
+          <div>
+            <p class="section-kicker" data-i18n="aboutKicker">ABOUT BOOGIOS_STUDIO</p>
+            <h2 data-i18n="aboutTitle">작게 만들고,<br /><em>오래 쓰는</em> 앱.</h2>
+          </div>
+          <div class="about-copy">
+            <p data-i18n="aboutText">BOOGIOS_STUDIO는 일상에서 자주 마주치는 작은 불편과 마음을 관찰하고, 오래 곁에 둘 수 있는 iOS 앱으로 만듭니다. 복잡하게 채우기보다 필요한 만큼만 선명하게 만드는 것을 좋아합니다.</p>
+            <div class="about-signature"><span class="signature-line"></span><span>Sangwoo Byeon · Seoul</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-card">
+          <div>
+            <p class="section-kicker light" data-i18n="contactKicker">SAY HELLO</p>
+            <h2 data-i18n="contactTitle">앱에 대해 궁금한 점이 있나요?</h2>
+            <p data-i18n="contactText">앱 사용 문의나 협업 제안은 편하게 연락해주세요.</p>
+          </div>
+          <a class="contact-email" href="mailto:tkddn0518@naver.com">tkddn0518@naver.com <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand footer-brand" href="#top"><span class="brand-mark">B</span><span>BOOGIOS<span class="brand-muted">_STUDIO</span></span></a>
+          <p data-i18n="footerText">작은 일상을 위한 독립 앱 스튜디오</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://apps.apple.com/kr/developer/sangwoo-byeon/id1707135670" target="_blank" rel="noreferrer" data-i18n="appStorePage">App Store 개발자 페이지</a>
+          <a href="https://boogios.notion.site/" target="_blank" rel="noreferrer" data-i18n="privacy">개인정보처리방침</a>
+        </div>
+        <p class="copyright">© <span id="year">2026</span> BOOGIOS_STUDIO</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
