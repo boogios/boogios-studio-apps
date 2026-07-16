@@ -107,7 +107,7 @@ const copy = {
     searchPlaceholder: "앱 검색", emptyState: "검색 결과가 없습니다.", aboutKicker: "ABOUT BOOGIOS_STUDIO", aboutTitle: "작게 만들고,<br><em>오래 쓰는</em> 앱.",
     aboutText: "BOOGIOS_STUDIO는 일상에서 자주 마주치는 작은 불편과 마음을 관찰하고, 오래 곁에 둘 수 있는 iOS 앱으로 만듭니다. 복잡하게 채우기보다 필요한 만큼만 선명하게 만드는 것을 좋아합니다.",
     contactKicker: "SAY HELLO", contactTitle: "앱에 대해 궁금한 점이 있나요?", contactText: "앱 사용 문의나 협업 제안은 편하게 연락해주세요.",
-    footerText: "작은 일상을 위한 독립 앱 스튜디오", privacy: "개인정보처리방침", all: "전체", appStore: "App Store에서 보기"
+    footerText: "작은 일상을 위한 독립 앱 스튜디오", privacy: "개인정보처리방침", terms: "서비스 약관", all: "전체", appStore: "App Store에서 보기"
   },
   en: {
     navApps: "Apps", navAbout: "About", navContact: "Contact", viewApps: "Explore apps",
@@ -118,7 +118,7 @@ const copy = {
     searchPlaceholder: "Search apps", emptyState: "No apps found.", aboutKicker: "ABOUT BOOGIOS_STUDIO", aboutTitle: "Small to make,<br><em>lasting to use</em>.",
     aboutText: "BOOGIOS_STUDIO makes iOS apps from the small frictions and feelings we notice in everyday life. We prefer clear, focused tools that can stay close for a long time.",
     contactKicker: "SAY HELLO", contactTitle: "Have a question about an app?", contactText: "For support, feedback, or collaboration, feel free to get in touch.",
-    footerText: "An independent app studio for everyday moments", privacy: "Privacy policy", all: "All", appStore: "View on the App Store"
+    footerText: "An independent app studio for everyday moments", privacy: "Privacy policy", terms: "Terms of service", all: "All", appStore: "View on the App Store"
   }
 };
 
