@@ -100,7 +100,7 @@ const apps = [
 const copy = {
   ko: {
     navApps: "앱", navAbout: "소개", navContact: "연락처", viewApps: "앱 둘러보기",
-    heroTitle: "일상의 작은 순간을 위한 앱", heroDescription: "기록하고, 정리하고, 다시 바라보는 순간을 더 가볍게 만듭니다.",
+    heroTitle: "DayBlocks로 계획하고,<br>실행하고, 돌아보는 하루", heroDescription: "DayBlocks는 하루를 계획하고, 실행하고, 돌아보는 PDS 기반 플래너입니다.",
     exploreApps: "앱 컬렉션 보기 ↘", appStorePage: "App Store 개발자 페이지", heroNote: "Sangwoo Byeon이 만들고 운영합니다.",
     featureKicker: "오늘의 작은 약속", featureTitle: "자기 전 30분", featureDescription: "잠들기 전 화면 시간을 정리하는 작은 취침 타이머.",
     collectionKicker: "THE COLLECTION", collectionTitle: "앱 컬렉션", collectionDescription: "매일의 흐름을 정리하고, 좋아하는 순간을 남기고, 관계와 취향을 오래 기억하기 위한 앱들입니다.",
@@ -111,7 +111,7 @@ const copy = {
   },
   en: {
     navApps: "Apps", navAbout: "About", navContact: "Contact", viewApps: "Explore apps",
-    heroTitle: "Apps for the small moments of everyday life", heroDescription: "Thoughtful tools for recording, organizing, and noticing what matters.",
+    heroTitle: "Plan, do, and see<br>your day with DayBlocks.", heroDescription: "DayBlocks is a PDS-based daily planner for planning, doing, and seeing your day.",
     exploreApps: "Explore the collection ↘", appStorePage: "App Store developer page", heroNote: "Made and run by Sangwoo Byeon.",
     featureKicker: "A small promise for today", featureTitle: "Before Bed 30", featureDescription: "A gentle bedtime timer for closing out your screen time.",
     collectionKicker: "THE COLLECTION", collectionTitle: "The app collection", collectionDescription: "Apps for shaping your day, keeping your favorite moments, and remembering the people and tastes that matter.",
