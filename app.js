@@ -100,25 +100,25 @@ const apps = [
 const copy = {
   ko: {
     navApps: "앱", navAbout: "소개", navContact: "연락처", viewApps: "앱 둘러보기",
-    heroTitle: "DayBlocks로 계획하고,<br>실행하고, 돌아보는 하루", heroDescription: "DayBlocks는 하루를 계획하고, 실행하고, 돌아보는 PDS 기반 플래너입니다.",
+    heroTitle: "DayBlocks로 계획하고,<br>실행하고, 돌아보는 하루", heroDescription: "DayBlocks는 하루를 계획하고, 실행하고, 돌아보는 PDS 기반 하루 플래너 앱입니다.",
     exploreApps: "앱 컬렉션 보기 ↘", appStorePage: "App Store 개발자 페이지", heroNote: "Sangwoo Byeon이 만들고 운영합니다.",
-    featureKicker: "오늘의 작은 약속", featureTitle: "자기 전 30분", featureDescription: "잠들기 전 화면 시간을 정리하는 작은 취침 타이머.",
-    collectionKicker: "THE COLLECTION", collectionTitle: "앱 컬렉션", collectionDescription: "매일의 흐름을 정리하고, 좋아하는 순간을 남기고, 관계와 취향을 오래 기억하기 위한 앱들입니다.",
-    searchPlaceholder: "앱 검색", emptyState: "검색 결과가 없습니다.", aboutKicker: "ABOUT BOOGIOS_STUDIO", aboutTitle: "작게 만들고,<br><em>오래 쓰는</em> 앱.",
-    aboutText: "BOOGIOS_STUDIO는 일상에서 자주 마주치는 작은 불편과 마음을 관찰하고, 오래 곁에 둘 수 있는 iOS 앱으로 만듭니다. 복잡하게 채우기보다 필요한 만큼만 선명하게 만드는 것을 좋아합니다.",
+    featureKicker: "계획하고 실행하는 하루", featureTitle: "DayBlocks", featureDescription: "하루를 계획하고, 실행하고, 돌아보는 PDS 기반 플래너.",
+    collectionKicker: "ABOUT DAYBLOCKS", collectionTitle: "DayBlocks 하루 플래너", collectionDescription: "DayBlocks는 오늘 할 일을 시간 블록으로 계획하고, 실행한 내용을 기록하고, 하루를 돌아보도록 돕는 iOS 앱입니다.",
+    searchPlaceholder: "앱 검색", emptyState: "검색 결과가 없습니다.", aboutKicker: "DAYBLOCKS FEATURES", aboutTitle: "계획하고,<br><em>실행하고 돌아보는</em> 하루.",
+    aboutText: "DayBlocks는 하루를 시간 블록으로 나누어 계획하고, 완료한 일을 기록하고, 지나간 하루를 돌아보는 PDS 방식의 데일리 플래너입니다. 해야 할 일을 한눈에 보고 오늘의 흐름에 집중할 수 있도록 돕습니다.",
     contactKicker: "SAY HELLO", contactTitle: "앱에 대해 궁금한 점이 있나요?", contactText: "앱 사용 문의나 협업 제안은 편하게 연락해주세요.",
-    footerText: "작은 일상을 위한 독립 앱 스튜디오", privacy: "개인정보처리방침", terms: "서비스 약관", all: "전체", appStore: "App Store에서 보기"
+    footerText: "BOOGIOS_STUDIO가 만든 하루 플래너 앱", privacy: "개인정보처리방침", terms: "서비스 약관", all: "전체", appStore: "App Store에서 보기"
   },
   en: {
     navApps: "Apps", navAbout: "About", navContact: "Contact", viewApps: "Explore apps",
-    heroTitle: "Plan, do, and see<br>your day with DayBlocks.", heroDescription: "DayBlocks is a PDS-based daily planner for planning, doing, and seeing your day.",
+    heroTitle: "Plan, do, and see<br>your day with DayBlocks.", heroDescription: "DayBlocks is a PDS-based daily planner app for planning, doing, and seeing your day.",
     exploreApps: "Explore the collection ↘", appStorePage: "App Store developer page", heroNote: "Made and run by Sangwoo Byeon.",
-    featureKicker: "A small promise for today", featureTitle: "Before Bed 30", featureDescription: "A gentle bedtime timer for closing out your screen time.",
-    collectionKicker: "THE COLLECTION", collectionTitle: "The app collection", collectionDescription: "Apps for shaping your day, keeping your favorite moments, and remembering the people and tastes that matter.",
-    searchPlaceholder: "Search apps", emptyState: "No apps found.", aboutKicker: "ABOUT BOOGIOS_STUDIO", aboutTitle: "Small to make,<br><em>lasting to use</em>.",
-    aboutText: "BOOGIOS_STUDIO makes iOS apps from the small frictions and feelings we notice in everyday life. We prefer clear, focused tools that can stay close for a long time.",
+    featureKicker: "Plan and do your day", featureTitle: "DayBlocks", featureDescription: "A PDS-based planner for planning, doing, and seeing your day.",
+    collectionKicker: "ABOUT DAYBLOCKS", collectionTitle: "The DayBlocks daily planner", collectionDescription: "DayBlocks helps you plan tasks in time blocks, record what you did, and review your day in one iOS app.",
+    searchPlaceholder: "Search apps", emptyState: "No apps found.", aboutKicker: "DAYBLOCKS FEATURES", aboutTitle: "Plan,<br><em>do, and see</em> your day.",
+    aboutText: "DayBlocks divides your day into time blocks so you can plan what matters, record what you completed, and review the day that passed. It is a focused PDS-style daily planner for iOS.",
     contactKicker: "SAY HELLO", contactTitle: "Have a question about an app?", contactText: "For support, feedback, or collaboration, feel free to get in touch.",
-    footerText: "An independent app studio for everyday moments", privacy: "Privacy policy", terms: "Terms of service", all: "All", appStore: "View on the App Store"
+    footerText: "A daily planner app by BOOGIOS_STUDIO", privacy: "Privacy policy", terms: "Terms of service", all: "All", appStore: "View on the App Store"
   }
 };
 
