@@ -99,22 +99,24 @@ const apps = [
 
 const copy = {
   ko: {
-    navApps: "앱", navAbout: "소개", navContact: "연락처", viewApps: "앱 둘러보기",
+    navApps: "앱", navCalendar: "Google Calendar", navAbout: "소개", navContact: "연락처", viewApps: "앱 둘러보기",
     heroTitle: "DayBlocks로 계획하고,<br>실행하고, 돌아보는 하루", heroDescription: "DayBlocks는 하루를 계획하고, 실행하고, 돌아보는 PDS 기반 하루 플래너 앱입니다.",
     exploreApps: "앱 컬렉션 보기 ↘", appStorePage: "App Store 개발자 페이지", heroNote: "Sangwoo Byeon이 만들고 운영합니다.",
     featureKicker: "계획하고 실행하는 하루", featureTitle: "DayBlocks", featureDescription: "하루를 계획하고, 실행하고, 돌아보는 PDS 기반 플래너.",
     collectionKicker: "ABOUT DAYBLOCKS", collectionTitle: "DayBlocks 하루 플래너", collectionDescription: "DayBlocks는 오늘 할 일을 시간 블록으로 계획하고, 실행한 내용을 기록하고, 하루를 돌아보도록 돕는 iOS 앱입니다.",
+    calendarKicker: "GOOGLE CALENDAR", calendarTitle: "Google Calendar와 함께 쓰는 DayBlocks", calendarText: "DayBlocks는 사용자가 선택한 Google Calendar의 캘린더 목록과 일정을 DayBlocks에서 확인할 수 있도록 돕습니다. Google 계정을 연결하면 Google Calendar 일정을 DayBlocks로 가져오고, DayBlocks에서 만든 일정의 생성·수정·삭제 내용을 Google Calendar에 반영합니다.", calendarImport: "Google Calendar 캘린더 목록과 일정을 DayBlocks로 가져옵니다.", calendarSync: "DayBlocks에서 생성·수정·삭제한 일정을 Google Calendar에 반영합니다.", calendarUse: "Google Calendar 데이터는 일정 동기화 기능을 제공하는 목적에만 사용합니다.",
     searchPlaceholder: "앱 검색", emptyState: "검색 결과가 없습니다.", aboutKicker: "DAYBLOCKS FEATURES", aboutTitle: "계획하고,<br><em>실행하고 돌아보는</em> 하루.",
     aboutText: "DayBlocks는 하루를 시간 블록으로 나누어 계획하고, 완료한 일을 기록하고, 지나간 하루를 돌아보는 PDS 방식의 데일리 플래너입니다. 해야 할 일을 한눈에 보고 오늘의 흐름에 집중할 수 있도록 돕습니다.",
     contactKicker: "SAY HELLO", contactTitle: "앱에 대해 궁금한 점이 있나요?", contactText: "앱 사용 문의나 협업 제안은 편하게 연락해주세요.",
     footerText: "BOOGIOS_STUDIO가 만든 하루 플래너 앱", privacy: "개인정보처리방침", terms: "서비스 약관", all: "전체", appStore: "App Store에서 보기"
   },
   en: {
-    navApps: "Apps", navAbout: "About", navContact: "Contact", viewApps: "Explore apps",
+    navApps: "Apps", navCalendar: "Google Calendar", navAbout: "About", navContact: "Contact", viewApps: "Explore apps",
     heroTitle: "Plan, do, and see<br>your day with DayBlocks.", heroDescription: "DayBlocks is a PDS-based daily planner app for planning, doing, and seeing your day.",
     exploreApps: "Explore the collection ↘", appStorePage: "App Store developer page", heroNote: "Made and run by Sangwoo Byeon.",
     featureKicker: "Plan and do your day", featureTitle: "DayBlocks", featureDescription: "A PDS-based planner for planning, doing, and seeing your day.",
     collectionKicker: "ABOUT DAYBLOCKS", collectionTitle: "The DayBlocks daily planner", collectionDescription: "DayBlocks helps you plan tasks in time blocks, record what you did, and review your day in one iOS app.",
+    calendarKicker: "GOOGLE CALENDAR", calendarTitle: "DayBlocks with Google Calendar", calendarText: "DayBlocks lets you view calendars and events from the Google Calendar you choose. When you connect your Google account, DayBlocks imports Google Calendar events and sends events created, edited, or deleted in DayBlocks back to Google Calendar.", calendarImport: "Import calendars and events from your selected Google Calendar.", calendarSync: "Apply events created, edited, or deleted in DayBlocks to Google Calendar.", calendarUse: "Google Calendar data is used only to provide calendar synchronization.",
     searchPlaceholder: "Search apps", emptyState: "No apps found.", aboutKicker: "DAYBLOCKS FEATURES", aboutTitle: "Plan,<br><em>do, and see</em> your day.",
     aboutText: "DayBlocks divides your day into time blocks so you can plan what matters, record what you completed, and review the day that passed. It is a focused PDS-style daily planner for iOS.",
     contactKicker: "SAY HELLO", contactTitle: "Have a question about an app?", contactText: "For support, feedback, or collaboration, feel free to get in touch.",

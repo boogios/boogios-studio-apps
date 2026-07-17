@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://boogios.github.io/boogios-studio-apps/sitemap.xml
+Sitemap: https://dayblocks.unionpick.kr/sitemap.xml
